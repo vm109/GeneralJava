@@ -1,0 +1,13 @@
+1. can we have a return type for the constructor ?
+No, the constructor can not have a return type. If the constructor has a return
+type it will become a normal function
+
+2. Can you make a constructor final ?
+No, we cannot make a constructor final because - a final method in java is 
+to do not allow override in the inherited class.
+
+But the constructor is not inherited in java.
+
+So there is no need of having a final for the constructor.
+
+3. 
